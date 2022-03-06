@@ -9,11 +9,11 @@ I hope you will like them.
 
 ### Dark Theme:
 
-![dark theme](Frontail_AGM Dark.jpg)
+![dark_theme](Frontail_AGM Dark.jpg)
 
 ### Light Theme:
 
-![light theme](Frontail_AGM Light.jpg)
+![light_theme](Frontail_AGM Light.jpg)
 
 ## How to change Theme in openhabian 3x.
 1. The `openhab_AEM.css` file should be uploaded to the directory: `/opt/frontail/web/assets/styles` (overwrite the existing file).
