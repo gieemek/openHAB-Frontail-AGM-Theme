@@ -1,11 +1,7 @@
 # openHAB Frontail AGM Theme
 
 These are my versions of the themes for the **openHAB Log Viewer** (*Frontail*).
-There are two themes available:
-- Light
-
-and
-- Dark.
+There are two themes available: Light and Dark.
 
 My themes are based on basic themes available in openHAB 3x, but there are some changes in colors and displaying which makes logs very readable.
 I also corrected wrong *INFO* logs displaying as error lines.
