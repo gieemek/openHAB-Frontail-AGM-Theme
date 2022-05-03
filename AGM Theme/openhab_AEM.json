@@ -24,6 +24,10 @@
     "\\s°C": "degrees marked",
     "\\s°": "degrees marked",
     "\\s%": "percent marked",
+    "\\sGB\\b": "volume marked",
+    "\\sdB\\b": "volume marked",
+    "\\sV\\b": "voltage marked",
+    "\\sW\\b": "power marked",
     "\\sON\\b": "keyword green on",
     "\\sONLINE\\b": "keyword green online",
     "\\sOPEN\\b": "keyword green open",
@@ -57,7 +61,15 @@
     "\\[(\\S*?).ops4j.(.*?)\\]": "origin",
     "\\[(\\S*?).jetty.(.*?)\\]": "origin",
     "\\[(\\S*?).kar.(.*?)\\]": "origin",
+    "\\[(\\S*?).osgi.(.*?)\\]": "origin",
+    "\\[(\\S*?).mqtt.(.*?)\\]": "origin",
+    "\\[(\\S*?).dtls.(.*?)\\]": "origin",
+    "\\[(\\S*?).scandium.(.*?)\\]": "origin",
     "\\[(\\S*?).NamespaceHandlerRegisterer(.*?)\\]": "origin",
+    "\\[(\\S*?).service.(.*?)\\]": "origin",
+    "\\[(\\S*?).jython(.*?)\\]": "origin",
+    "\\[(\\S*?).rule:(.*?)\\]": "origin",
+    "\\[(\\S*?)ROOT(.*?)\\]": "origin",
     "SKIPPED: (\\d*)": "skippedCount"
   },
   "wordsRegExMatchClass": {
@@ -76,10 +88,11 @@
     "ModelRepositoryImpl": "line evid modelLine",
     "ERROR": "line evid errorLine",
     "FATAL": "line evid errorLine",
-    "WARN": "line evid warnLine",
     "DEBUG": "line debugLine",
     "TRACE": "line traceLine",
     "SKIPPED": "line skippedCountLine",
-    "INFO": "line"
+    "INFO ": "line",
+    ".rule:": "line bmsLine",
+    "WARN ": "line evid warnLine"
   }
 }
